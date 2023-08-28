@@ -1,6 +1,48 @@
 body{
     margin: 0;
     display: flex;
-    width: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(46, 58, 75);
+}
+
+#calculator{
+    background-color: rgb(66, 66, 66);
+    padding: 2rem;
+    height: fit-content;
+}
+.screen{
+    margin-top: 0;
+    background-color: rgb(110, 110, 110);
+    color: rgb(238, 238, 238);
+    font-size: 36px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 3rem;
+    text-align: right;
+}
+.btns{
+    display: flex;
     flex-wrap: wrap;
+}
+.btn{
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+    aspect-ratio: 1;
+    width: 1rem;
+    padding: 0;
+    flex-basis: 25%;
+}
+
+.num-btn{
+    background-color: rgb(110, 110, 110);
+}
+.operator-btn, .equals-btn{
+    background-color: rgb(212, 139, 4);
+}
+.special-btn{
+    background-color: rgb(138, 138, 138);
 }

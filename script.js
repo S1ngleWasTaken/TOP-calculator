@@ -12,12 +12,14 @@ let sum = function (num1, num2) {
     let result = num1 + num2;
     firstNumber = result;
     secondNumber = '';
+    currentNumber *= -1;
     return result
 }
 let subtract = function (num1, num2) {
     let result = num1 - num2;
     firstNumber = result;
     secondNumber = '';
+    currentNumber *= -1;
     return result
 }
 let divide = function (num1, num2) {
@@ -25,6 +27,7 @@ let divide = function (num1, num2) {
         let result = num1 / num2;
         firstNumber = result;
         secondNumber = '';
+        currentNumber *= -1;
         return result
     } else {
         secondNumber = ''
@@ -35,6 +38,7 @@ let multiply = function (num1, num2) {
     let result = num1 * num2;
     firstNumber = result;
     secondNumber = '';
+    currentNumber *= -1;
     return result
 }
 
