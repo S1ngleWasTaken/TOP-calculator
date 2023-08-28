@@ -12,14 +12,18 @@ body{
     padding: 2rem;
     height: fit-content;
 }
-.screen{
-    margin-top: 0;
+.screen-div{
     background-color: rgb(110, 110, 110);
     color: rgb(238, 238, 238);
     font-size: 36px;
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 3rem;
+    margin-bottom: 2rem;
+}
+.screen{
+    margin-right: 5px;
+    margin-top: 0;
     text-align: right;
 }
 .btns{
@@ -31,7 +35,7 @@ body{
     font-size: 24px;
     font-weight: bold;
     color: rgb(238, 238, 238);
-    aspect-ratio: 1;
+    height: 76px;
     width: 1rem;
     padding: 0;
     flex-basis: 25%;
@@ -40,9 +44,16 @@ body{
 .num-btn{
     background-color: rgb(110, 110, 110);
 }
+#zero{
+    flex: 1 1 50%;
+}
 .operator-btn, .equals-btn{
     background-color: rgb(212, 139, 4);
 }
 .special-btn{
     background-color: rgb(138, 138, 138);
+}
+
+.btn:hover{
+    filter: brightness(90%);
 }
